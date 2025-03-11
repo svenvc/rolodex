@@ -27,7 +27,7 @@
   <div :if={@contact.birthday} class="flex items-start space-x-3">
     <.icon name="hero-cake" class="h-6 w-6 text-gray-400 shrink-0" />
     <div>
-      {Calendar.strftime(@contact.birthday, "%m/%d/%Y")}
+      {Calendar.strftime(@contact.birthday, "%d/%m/%Y")}
     </div>
   </div>
 
